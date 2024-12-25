@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Food Website</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="pz.css"> <!-- Link to your external CSS file -->
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="logo">
+      <span>Foodies</span>
+    </div>
+    <div class="nav-links">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#menu">Menu</a>
+        <a href="#">Gallery</a>
+        <a href="#contact">Contact</a>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero" id="home">
+    <h1>Welcome to Foodies</h1>
+    <p>Delicious food, amazing experiences. Explore our menu today!</p>
+    <button class="book-btn">Book a Table</button>
+  </section>
+
+  <!-- Floating Elements Container -->
+  <div class="floating-elements"></div>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2024 Foodies. All rights reserved.</p>
+  </footer>
+
+  <main class="menu-section" id="menu">
+    <h1>Our Menu</h1>
+    
+    <div class="menu-categories">
+      <button class="category-btn active">All</button>
+      <button class="category-btn">Pizza</button>
+      <button class="category-btn">Burgers</button>
+      <button class="category-btn">Salads</button>
+      <button class="category-btn">Middle Eastern</button>
+      <button class="category-btn">Chicken</button>
+    </div>
+
+    <div class="menu-grid">
+      <div class="menu-item pizza">
+        <div class="menu-item-content">
+          <h3>Margherita Pizza</h3>
+          <p>Fresh tomatoes, mozzarella, basil, olive oil</p>
+          <div class="price">$14.99</div>
+          <a href="https://foodlover.com/order" class="order-btn">Order Now</a>
+        </div>
+      </div>
+
+      <div class="menu-item burger">
+        <div class="menu-item-content">
+          <h3>Classic Cheeseburger</h3>
+          <p>Beef patty, cheddar cheese, lettuce, tomato, special sauce</p>
+          <div class="price">$12.99</div>
+          <a href="https://foodlover.com/order" class="order-btn">Order Now</a>
+        </div>
+      </div>
+
+      <div class="menu-item salad">
+        <div class="menu-item-content">
+          <h3>Grilled Chicken Salad</h3>
+          <p>Mixed greens, grilled chicken, cherry tomatoes, avocado</p>
+          <div class="price">$13.99</div>
+          <a href="https://foodlover.com/order" class="order-btn">Order Now</a>
+        </div>
+      </div>
+
+      <div class="menu-item chicken">
+        <div class="menu-item-content">
+          <h3>Roasted Lemon Chicken</h3>
+          <p>Herb-roasted chicken with lemon and garlic</p>
+          <div class="price">$16.99</div>
+          <a href="https://foodlover.com/order" class="order-btn">Order Now</a>
+        </div>
+      </div>
+
+      <div class="menu-item shawarma">
+        <div class="menu-item-content">
+          <h3>Mixed Shawarma Plate</h3>
+          <p>Chicken and beef shawarma with rice and salad</p>
+          <div class="price">$15.99</div>
+          <a href="https://foodlover.com/order" class="order-btn">Order Now</a>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <main class="about-section" id="about">
+    <h1>Our Story</h1>
+    <p style="margin: 1rem 0">Founded in 2010, Food Lover Restaurant has been serving delicious meals with passion and dedication.</p>
+    
+    <div class="about-grid">
+      <div class="about-card">
+        <h3>Our Mission</h3>
+        <p>To provide exceptional dining experiences through quality ingredients and outstanding service.</p>
+      </div>
+      <div class="about-card">
+        <h3>Our Vision</h3>
+        <p>To become the most beloved restaurant by creating memorable moments for our guests.</p>
+      </div>
+      <div class="about-card">
+        <h3>Our Values</h3>
+        <p>Quality, Innovation, Customer Service, and Community Engagement are at the heart of everything we do.</p>
+      </div>
+    </div>
+
+    <div class="chef-section">
+      <div class="chef-avatar">
+        <svg viewBox="0 0 24 24" width="80" height="80" fill="white">
+          <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/>
+        </svg>
+      </div>
+      <h2>Meet Our Chef</h2>
+      <p>With over 20 years of culinary experience, our head chef brings creativity and expertise to every dish.</p>
+    </div>
+
+    <div class="stats">
+      <div class="stat-item">
+        <div class="stat-number">12+</div>
+        <div>Years of Excellence</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-number">1000+</div>
+        <div>Happy Customers</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-number">50+</div>
+        <div>Signature Dishes</div>
+      </div>
+    </div>
+  </main>
+
+  <main class="contact-section" id="contact">
+    <h1>Contact Us</h1>
+    <p style="margin: 1rem 0">We'd love to hear from you! Get in touch with us for reservations or any inquiries.</p>
+    
+    <div class="contact-grid">
+      <div class="contact-form animate">
+        <h2>Send us a Message</h2>
+        <form id="contactForm">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" required>
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" rows="5" required></textarea>
+          </div>
+          <button type="submit" class="submit-btn">Send Message</button>
+        </form>
+      </div>
+
+      <div class="contact-info animate">
+        <h2>Contact Information</h2>
+        <div class="info-item">
+          <svg viewBox="0 0 24 24" fill="currentColor">
+            <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/>
+          </svg>
+          <p>123 Food Street, Cuisine City, FC 12345</p>
+        </div>
+        <div class="info-item">
+          <svg viewBox="0 0 24 24" fill="currentColor">
+            <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
+          </svg>
+          <p>info@foodlover.com</p>
+        </div>
+        <div class="info-item">
+          <svg viewBox="0 0 24 24" fill="currentColor">
+            <path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/>
+          </svg>
+          <p>+1 (555) 123-4567</p>
+        </div>
+        <div class="info-item">
+          <svg viewBox="0 0 24 24" fill="currentColor">
+            <path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8zm.5-13H11v6l5.25 3.15.75-1.23-4.5-2.67z"/>
+          </svg>
+          <p>Mon-Sun: 11:00 AM - 10:00 PM</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="map-container animate">
+      <!-- Interactive map placeholder -->
+      <div id="map" style="width: 100%; height: 100%; background: rgba(255,255,255,0.1);"></div>
+    </div>
+  </main>
+<!-- Testimonials Section -->
+<main class="testimonials-section">
+    <h1>What Our Customers Say</h1>
+    <div class="testimonials-grid">
+        <div class="testimonial-item">
+            <p>"The best dining experience I've ever had! The food was incredible and the service was top-notch."</p>
+            <h3>- John Doe</h3>
+        </div>
+        <div class="testimonial-item">
+            <p>"Absolutely loved the ambiance and the food. Will definitely be coming back!"</p>
+            <h3>- Jane Smith</h3>
+        </div>
+        <div class="testimonial-item">
+            <p>"A must-visit for food lovers. The variety and quality of dishes are unmatched."</p>
+            <h3>- Michael Brown</h3>
+        </div>
+    </div>
+</main>
+
+
+  <script src="pz.js"></script> <!-- Link to your external JavaScript file -->
+</body>
+</html>
